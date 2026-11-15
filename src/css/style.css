@@ -1039,11 +1039,11 @@ em {
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
 }
 
 .footer-link {
-  font-size: 17px;
+  font-size: 15px;
   color: #e0e0e0;
   text-decoration: none;
   display: inline-block;
@@ -1164,6 +1164,51 @@ em {
   .belief-col:last-child {
     border-bottom: none;
   }
+
+  .team-table,
+  .team-table tbody,
+  .team-table tr,
+  .team-table td {
+    display: block;
+    width: 100%;
+    min-width: 0;
+  }
+
+  .team-table td {
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .team-table td:last-child {
+    border-bottom: none;
+  }
+
+  .services-table {
+    display: grid;
+    grid-template-columns: 1fr;
+    min-width: 0;
+  }
+
+  .services-table thead,
+  .services-table tbody,
+  .services-table tr {
+    display: contents;
+  }
+
+  .services-table th,
+  .services-table td {
+    width: 100%;
+    border-right: none;
+  }
+
+  .services-table .table-row-action td:not(:last-child) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .services-table :is(th, td):nth-child(1) { order: 1; }
+  .services-table :is(th, td):nth-child(2) { order: 2; }
+  .services-table :is(th, td):nth-child(3) { order: 3; }
+  .services-table :is(th, td):nth-child(4) { order: 4; }
 
   .footer-inner {
     flex-direction: column;
