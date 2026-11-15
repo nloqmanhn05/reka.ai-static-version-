@@ -1,4 +1,4 @@
-# Codebase Guidelines
+git # Codebase Guidelines
 
 Technical breakdown of every HTML, CSS, and JavaScript file in **reka.ai**, explaining what each file is for and what each section of code does.
 
