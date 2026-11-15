@@ -1245,11 +1245,6 @@ em {
     padding: 24px;
   }
 
-  .guarantee-strip {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
   :root {
     --h1: 34px;
     --lede: 15.5px;
