@@ -13,18 +13,10 @@
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
   <link rel="icon" href="data:," />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900&family=Instrument+Serif:ital@1&display=swap"
-    rel="stylesheet" />
-
-  <link rel="stylesheet" href="src/css/style.css?v=1.9" />
+  <link rel="stylesheet" href="src/css/style.css?v=2.1" />
 </head>
 
-<body style="background:#000;color:#fff">
-  <div class="grain"></div>
-
+<body>
   <div class="hero-photo">
     <video autoplay muted loop playsinline preload="auto">
       <source src="assets/video/hero-compat.mp4" type="video/mp4" />
@@ -36,19 +28,18 @@
 
     <!-- Header -->
     <header class="header">
-      <a href="#top" class="logo appear appear--scale" style="--d: 0.08s;" aria-label="reka.ai">
+      <a href="#top" class="logo" aria-label="reka.ai">
         <span>reka<span class="logo-suffix">.ai</span></span>
       </a>
 
       <nav id="site-nav" aria-label="Primary">
-        <a href="about.html" class="nav-link appear appear--scale" style="--d: 0.16s;">About</a>
-        <a href="contact.html" class="nav-link appear appear--soft" style="--d: 0.40s;">Contact</a>
-        <a href="experience.html" class="nav-link appear appear--soft" style="--d: 0.24s;">Experience</a>
-        <a href="princing.html" class="nav-link appear appear--scale" style="--d: 0.32s;">Pricing</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="experience.html" class="nav-link">Experience</a>
+        <a href="princing.html" class="nav-link">Pricing</a>
       </nav>
 
-      <button type="button" class="burger appear appear--scale" style="--d: 0.34s;" aria-controls="site-nav"
-        aria-expanded="false" aria-label="Open menu">
+      <button type="button" class="burger" aria-controls="site-nav" aria-expanded="false" aria-label="Open menu">
         <span class="burger-bar"></span>
         <span class="burger-bar"></span>
         <span class="burger-bar"></span>
@@ -60,13 +51,11 @@
       <section class="hero" id="top">
         <div class="hero-copy">
           <h1 class="hero-h1">
-            <span class="headline-line"><span class="appear appear--mask" style="--d: 0.42s;"> <em>AI agents</em> around
-                how</span></span>
-            <span class="headline-line"><span class="appear appear--mask" style="--d: 0.62s;">your business <em>actually
-                  works</em>.</span></span>
+            <span class="headline-line"><em>AI agents</em> that helps</span>
+            <span class="headline-line">your business <em>escalate</em></span>
           </h1>
 
-          <p class="lede appear appear--soft" style="--d: 0.82s;">
+          <p class="lede">
             We design, build, and manage custom AI agents for Malaysian SMEs. We use the best model liek Claude,
             Gemini, and
             GPT, so you get the right engine for each task and never get locked into one vendor.
@@ -74,7 +63,7 @@
         </div>
 
         <div class="stats">
-          <div class="stat appear appear--stat" style="--d: 1.12s;">
+          <div class="stat">
             <svg class="stat-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
               <defs>
                 <linearGradient id="pillGrad1" x1="3" y1="2" x2="14" y2="22" gradientUnits="userSpaceOnUse">
@@ -93,7 +82,7 @@
             <span>Multi-Model AI Orchestration</span>
           </div>
 
-          <div class="stat appear appear--stat" style="--d: 1.28s;">
+          <div class="stat">
             <svg class="stat-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
               <rect x="2.4" y="2.4" width="19.2" height="19.2" rx="6.2" fill="#ffffff" />
               <path d="M12 7.1v7.4" stroke="#111111" stroke-width="1.85" stroke-linecap="round" />
@@ -103,7 +92,7 @@
             <span>Measurable Reduction in Manual Ops</span>
           </div>
 
-          <div class="stat appear appear--stat" style="--d: 1.44s;">
+          <div class="stat">
             <svg class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
               <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
@@ -126,7 +115,7 @@
         </div>
 
         <div class="container">
-          <div class="section-header reveal">
+          <div class="section-header">
             <h3 class="section-eyebrow">Our Core</h3>
             <h2 class="section-title">We <em>Believe</em></h2>
             <p class="section-lede">
@@ -135,7 +124,7 @@
             </p>
           </div>
 
-          <div class="beliefs-table-card card reveal">
+          <div class="beliefs-table-card card">
             <div class="beliefs-table-grid">
               <!-- 01 -->
               <div class="belief-col">
@@ -170,7 +159,7 @@
             </div>
           </div>
 
-          <div class="beliefs-footer reveal">
+          <div class="beliefs-footer">
             <span class="beliefs-tagline">AI that works for everyone.</span>
           </div>
         </div>
@@ -179,12 +168,12 @@
       <!-- Section 5: Contact (§5) -->
       <section class="section" id="contact">
         <div class="container">
-          <div class="section-header reveal">
+          <div class="section-header">
             <h2 class="section-title">Let's find your <em>first agent</em>.</h2>
             <p class="section-lede">Tell us what slows your business down. We'll reply within 1 business day.</p>
           </div>
 
-          <div class="contact-wrap reveal">
+          <div class="contact-wrap">
             <form id="contact-form" class="contact-form" novalidate>
               <div class="form-row">
                 <div class="form-group">

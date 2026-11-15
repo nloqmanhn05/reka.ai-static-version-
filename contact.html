@@ -7,18 +7,10 @@
   <title>Contact Our Team — reka.ai</title>
   <meta name="description" content="Meet and contact the founding engineering and operations team behind reka.ai." />
   <link rel="icon" href="data:," />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900&family=Instrument+Serif:ital@1&display=swap"
-    rel="stylesheet" />
-
-  <link rel="stylesheet" href="src/css/style.css?v=1.9" />
+  <link rel="stylesheet" href="src/css/style.css?v=2.1" />
 </head>
 
-<body class="contact-page" style="background:#000;color:#fff">
-  <div class="grain"></div>
-
+<body class="contact-page">
   <div class="hero-photo">
     <video autoplay muted loop playsinline preload="auto">
       <source src="assets/video/hero-compat.mp4" type="video/mp4" />
@@ -30,27 +22,28 @@
 
     <!-- Header -->
     <header class="header">
-      <a href="index.html" class="logo appear appear--scale" style="--d: 0.08s;" aria-label="reka.ai">
+      <a href="index.html" class="logo" aria-label="reka.ai">
         <span>reka<span class="logo-suffix">.ai</span></span>
       </a>
 
       <nav id="site-nav" aria-label="Primary">
-        <a href="about.html" class="nav-link appear appear--scale" style="--d: 0.16s;">About</a>
-        <a href="contact.html" class="nav-link appear appear--soft" style="--d: 0.40s;">Contact</a>
-        <a href="experience.html" class="nav-link appear appear--soft" style="--d: 0.24s;">Experience</a>
-        <a href="princing.html" class="nav-link appear appear--scale" style="--d: 0.32s;">Princing</a>
-        <button type="button" class="burger appear appear--scale" style="--d: 0.34s;" aria-controls="site-nav"
-          aria-expanded="false" aria-label="Open menu">
-          <span class="burger-bar"></span>
-          <span class="burger-bar"></span>
-          <span class="burger-bar"></span>
-        </button>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="experience.html" class="nav-link">Experience</a>
+        <a href="princing.html" class="nav-link">Pricing</a>
+      </nav>
+
+      <button type="button" class="burger" aria-controls="site-nav" aria-expanded="false" aria-label="Open menu">
+        <span class="burger-bar"></span>
+        <span class="burger-bar"></span>
+        <span class="burger-bar"></span>
+      </button>
     </header>
 
     <main>
       <section class="section contact-team-section" id="team-contact">
         <div class="container">
-          <div class="back-home-row reveal">
+          <div class="back-home-row">
             <a href="index.html" class="back-home-btn">
               <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
                 stroke-linejoin="round" aria-hidden="true">
@@ -61,74 +54,56 @@
             </a>
           </div>
 
-          <div class="section-header reveal">
+          <div class="section-header">
             <h3 class="section-eyebrow">Our Reka</h3>
-            <h2 class="section-title">Meet the <em>builders</em> behind reka.ai.</h2>
+            <h2 class="section-title">Meet the <em>builders</em> behind reka.ai</h2>
             <p class="section-lede">Whether it's a question, an idea, or just curiosity about AI, we'd love to hear from
               you. Share what's on your mind, challenge our thinking, or simply say hello. Every conversation helps us
               learn, and we're always glad to hear how others see technology shaping their work and their community.</p>
           </div>
 
-          <div class="team-directory-grid">
-            <!-- Person 1 -->
-            <div class="card member-card">
-              <div class="member-photo">
-                <img src="assets/team/member-1.jpg" alt="Loqman Hakim"
-                  onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
-                <div class="member-photo-fallback" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"
-                    stroke-linejoin="round">
-                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                    <circle cx="12" cy="7" r="4"></circle>
-                  </svg>
-                </div>
-              </div>
-              <div class="member-info">
-                <span class="member-role">2250509</span>
-                <h4 class="member-name">Nur Loqman Hakim Bin Mohd Nasir</h4>
-                <a href="mailto:loqman@reka.ai" class="member-email">loqman@reka.ai</a>
-              </div>
-            </div>
+          <div class="team-table-wrap card">
+            <table class="team-table">
+              <tbody>
+                <tr>
+                  <!-- Person 1 -->
+                  <td>
+                    <div class="member-photo">
+                      <img src="assets/team/member-1.jpg" alt="Loqman Hakim" />
+                    </div>
+                    <div class="member-info">
+                      <span class="member-role">2250509</span>
+                      <h4 class="member-name">Nur Loqman Hakim Bin Mohd Nasir</h4>
+                      <a href="mailto:loqman@reka.ai" class="member-email">loqman@reka.ai</a>
+                    </div>
+                  </td>
 
-            <!-- Person 2 -->
-            <div class="card member-card">
-              <div class="member-photo">
-                <img src="assets/team/member-2.png" alt="Aniq"
-                  onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
-                <div class="member-photo-fallback" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"
-                    stroke-linejoin="round">
-                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                    <circle cx="12" cy="7" r="4"></circle>
-                  </svg>
-                </div>
-              </div>
-              <div class="member-info">
-                <span class="member-role">2250497</span>
-                <h4 class="member-name">Nor Aniq Bin Nor Azim </h4>
-                <a href="mailto:aniq@reka.ai" class="member-email">aniq@reka.ai</a>
-              </div>
-            </div>
+                  <!-- Person 2 -->
+                  <td>
+                    <div class="member-photo">
+                      <img src="assets/team/member-2.png" alt="Aniq" />
+                    </div>
+                    <div class="member-info">
+                      <span class="member-role">2250497</span>
+                      <h4 class="member-name">Nor Aniq Bin Nor Azim </h4>
+                      <a href="mailto:aniq@reka.ai" class="member-email">aniq@reka.ai</a>
+                    </div>
+                  </td>
 
-            <!-- Person 3 -->
-            <div class="card member-card">
-              <div class="member-photo">
-                <img src="assets/team/member-3.jpg" alt="peter"
-                  onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
-                <div class="member-photo-fallback" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"
-                    stroke-linejoin="round">
-                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                    <circle cx="12" cy="7" r="4"></circle>
-                  </svg>
-                </div>
-              </div>
-              <div class="member-info">
-                <span class="member-role">2250515</span>
-                <h4 class="member-name">Peter Chan Wei Soon</h4>
-                <a href="mailto:peter@reka.ai" class="member-email">peter@reka.ai</a>
-              </div>
-            </div>
+                  <!-- Person 3 -->
+                  <td>
+                    <div class="member-photo">
+                      <img src="assets/team/member-3.jpg" alt="peter" />
+                    </div>
+                    <div class="member-info">
+                      <span class="member-role">2250515</span>
+                      <h4 class="member-name">Peter Chan Wei Soon</h4>
+                      <a href="mailto:peter@reka.ai" class="member-email">peter@reka.ai</a>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </section>

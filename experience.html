@@ -8,18 +8,10 @@
     <meta name="description"
         content="Battle-tested experience and real-world systems engineered across fintech, operations, and community scale." />
     <link rel="icon" href="data:," />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900&family=Instrument+Serif:ital@1&display=swap"
-        rel="stylesheet" />
-
-    <link rel="stylesheet" href="src/css/style.css?v=1.9" />
+    <link rel="stylesheet" href="src/css/style.css?v=2.1" />
 </head>
 
-<body class="contact-page" style="background:#000;color:#fff">
-    <div class="grain"></div>
-
+<body class="contact-page">
     <div class="hero-photo">
         <video autoplay muted loop playsinline preload="auto">
             <source src="assets/video/hero-compat.mp4" type="video/mp4" />
@@ -31,20 +23,18 @@
 
         <!-- Header -->
         <header class="header">
-            <a href="index.html" class="logo appear appear--scale" style="--d: 0.08s;" aria-label="reka.ai">
+            <a href="index.html" class="logo" aria-label="reka.ai">
                 <span>reka<span class="logo-suffix">.ai</span></span>
             </a>
 
             <nav id="site-nav" aria-label="Primary">
-                <a href="about.html" class="nav-link appear appear--scale" style="--d: 0.16s;">About</a>
-                <a href="contact.html" class="nav-link appear appear--soft" style="--d: 0.40s;">Contact</a>
-                <a href="experience.html" class="nav-link appear appear--soft is-active"
-                    style="--d: 0.24s;">Experience</a>
-                <a href="princing.html" class="nav-link appear appear--scale" style="--d: 0.32s;">Pricing</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="experience.html" class="nav-link">Experience</a>
+                <a href="princing.html" class="nav-link">Pricing</a>
             </nav>
 
-            <button type="button" class="burger appear appear--scale" style="--d: 0.34s;" aria-controls="site-nav"
-                aria-expanded="false" aria-label="Open menu">
+            <button type="button" class="burger" aria-controls="site-nav" aria-expanded="false" aria-label="Open menu">
                 <span class="burger-bar"></span>
                 <span class="burger-bar"></span>
                 <span class="burger-bar"></span>
@@ -54,7 +44,7 @@
         <main>
             <section class="section" id="experience">
                 <div class="container">
-                    <div class="back-home-row reveal">
+                    <div class="back-home-row">
                         <a href="index.html" class="back-home-btn">
                             <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"
                                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -65,58 +55,66 @@
                         </a>
                     </div>
 
-                    <div class="section-header reveal">
+                    <div class="section-header">
                         <h3 class="section-eyebrow"> Our Experience</h3>
-                        <h2 class="section-title">Battle-tested experience,<br /><em>proven outcomes</em>.</h2>
+                        <h2 class="section-title">Battle tested experience,<br /><em>proven outcomes</em></h2>
                         <p class="section-lede">Real-world systems engineered across financial technology,
                             operations, and community scale. Each one began as a hackathon
                             build or a personal project, driven by curiosity and a belief that
                             technology should solve problems people actually face.</p>
                     </div>
 
-                    <div class="accordion-body">
-                        <div class="projects-grid engineering-grid reveal">
-                            <a href="https://yesorno1.vercel.app/" class="project-card" target="_blank"
-                                rel="noopener noreferrer">
-                                <span class="view-repo-btn">View Link</span>
-                                <div class="project-thumb">
-                                    <video src="assets/projects/yesorno.mp4" autoplay loop muted playsinline
-                                        preload="metadata"></video>
-                                    <div class="project-overlay">
-                                        <div class="project-title">Yes Or No</div>
-                                        <div class="project-desc">A confession through coding</div>
-                                    </div>
-                                </div>
-                            </a>
+                    <div class="team-table-wrap card">
+                        <table class="team-table">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <a href="https://yesorno1.vercel.app/" class="project-card" target="_blank"
+                                            rel="noopener noreferrer">
+                                            <div class="project-thumb">
+                                                <video src="assets/projects/yesorno.mp4" autoplay loop muted playsinline
+                                                    preload="metadata"></video>
+                                                <div class="project-overlay">
+                                                    <div class="project-title">Yes Or No</div>
+                                                    <div class="project-desc">A confession through coding</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </td>
 
-                            <a href="https://nloqmanhn05.github.io/flower/" class="project-card" target="_blank"
-                                rel="noopener noreferrer">
-                                <span class="view-repo-btn">View Link</span>
-                                <div class="project-thumb">
-                                    <video src="assets/projects/flower.mp4" autoplay loop muted playsinline
-                                        preload="metadata"></video>
-                                    <div class="project-overlay">
-                                        <div class="project-title">Flower</div>
-                                        <div class="project-desc">FLower Animation</div>
-                                    </div>
-                                </div>
-                            </a>
+                                    <td>
+                                        <a href="https://nloqmanhn05.github.io/flower/" class="project-card"
+                                            target="_blank" rel="noopener noreferrer">
+                                            <div class="project-thumb">
+                                                <video src="assets/projects/flower.mp4" autoplay loop muted playsinline
+                                                    preload="metadata"></video>
+                                                <div class="project-overlay">
+                                                    <div class="project-title">Flower</div>
+                                                    <div class="project-desc">FLower Animation</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </td>
 
-                            <a href="https://github.com/nloqmanhn05/Fintech" class="project-card" target="_blank"
-                                rel="noopener noreferrer">
-                                <span class="view-repo-btn">View Repo</span>
-                                <div class="project-thumb">
-                                    <video src="assets/projects/fintech.mp4" autoplay loop muted playsinline
-                                        preload="metadata"></video>
-                                    <div class="project-overlay">
-                                        <div class="project-title">Fintech</div>
-                                        <div class="project-desc">A smart POS system with integrating AI(Akira)
-                                            that
-                                            help you to managed your business.</div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
+                                    <td>
+                                        <a href="https://github.com/nloqmanhn05/Fintech" class="project-card"
+                                            target="_blank" rel="noopener noreferrer">
+                                            <div class="project-thumb">
+                                                <video src="assets/projects/fintech.mp4" autoplay loop muted playsinline
+                                                    preload="metadata"></video>
+                                                <div class="project-overlay">
+                                                    <div class="project-title">Fintech</div>
+                                                    <div class="project-desc">A smart POS system with integrating
+                                                        AI(Akira)
+                                                        that
+                                                        help you to managed your business.</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </section>
@@ -152,9 +150,10 @@
                     </div>
                 </nav>
             </div>
+        </footer>
+    </div>
 
-
-            <script src="src/js/main.js" defer></script>
+    <script src="src/js/main.js" defer></script>
 </body>
 
 </html>
